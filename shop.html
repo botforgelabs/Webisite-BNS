@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop — BNS Fidgets</title>
+<meta name="description" content="Browse handmade 3D-printed fidget toys and sensory pieces from BNS Fidgets, Brisbane.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><img src="assets/images/logo.jpeg" alt=""></span>
+      <span class="brand-word">BNS Fidgets</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" id="navToggle" aria-label="Toggle menu">
+      <span></span>
+    </button>
+    <nav>
+      <ul class="nav-links" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html" aria-current="page">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="about.html#visit">Visit the store</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow"><span class="dot"></span> Printed on demand, A$5–A$40</span>
+      <h1>The full collection</h1>
+      <p>Everything below is printed fresh once you order — nothing sits pre-made on a shelf, so colours can vary a little print to print.</p>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Print on demand</span><span>BNS Fidgets</span>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="filter-row" role="group" aria-label="Filter products by category">
+        <button class="filter-chip" type="button" aria-pressed="true" data-filter="all">All items</button>
+        <button class="filter-chip" type="button" aria-pressed="false" data-filter="swirl">Gradient swirls</button>
+        <button class="filter-chip" type="button" aria-pressed="false" data-filter="aquarium">Aquarium kits</button>
+      </div>
+
+      <div class="grid" id="productGrid" data-reveal-group>
+
+        <article class="card" data-category="swirl" data-reveal style="--i:0">
+          <div class="card-media">
+            <span class="badge badge-order">Print on demand</span>
+            <img src="assets/images/IMG_1863.jpeg" alt="Pair of twisted gradient-swirl 3D-printed fidget pieces in orange, teal and blue">
+          </div>
+          <div class="card-body">
+            <h3>Spinno the Oreo</h3>
+            <p class="desc">A twist-textured pair with a rainbow silk gradient — cool to the touch, satisfying to turn between your fingers.</p>
+            <div class="card-foot">
+              <span class="price">A$5.00</span>
+              <a class="pill-link" href="about.html#visit">Enquire</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="swirl" data-reveal style="--i:1">
+          <div class="card-media">
+            <span class="badge badge-order">Print on demand</span>
+            <img src="assets/images/IMG_1864.jpeg" alt="Cone-shaped gradient-swirl 3D-printed fidget piece in orange and pastel tones">
+          </div>
+          <div class="card-body">
+            <h3>Lobby the Lobster</h3>
+            <p class="desc">Tapered swirl print with a soft matte finish. Fits neatly in a pocket, pencil case, or desk drawer.</p>
+            <div class="card-foot">
+              <span class="price">A$9.00</span>
+              <a class="pill-link" href="about.html#visit">Enquire</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="swirl" data-reveal style="--i:2">
+          <div class="card-media">
+            <span class="badge badge-soon">Name TBD</span>
+            <img src="assets/images/IMG_1865.jpeg" alt="Cone-shaped gradient-swirl 3D-printed fidget piece in pink, orange and teal">
+          </div>
+          <div class="card-body">
+            <h3>Swirl Cone — Sunset</h3>
+            <p class="desc">Same twist-print family, warmer colourway. Ask in-store for current stock and pricing.</p>
+            <div class="card-foot">
+              <span class="price tbd">Ask in-store</span>
+              <a class="pill-link" href="about.html#visit">Enquire</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="aquarium" data-reveal style="--i:3">
+          <div class="card-media">
+            <span class="badge badge-new">New</span>
+            <img src="assets/images/IMG_5293.webp" alt="Miniature 3D-printed aquarium diorama kit with clownfish and blue tang fidget charms">
+          </div>
+          <div class="card-body">
+            <h3>Mini Aquarium Kit</h3>
+            <p class="desc">A tiny tank scene you build yourself — glass-look walls, coral, rockwork and a school of clownfish and tang fidget charms.</p>
+            <div class="card-foot">
+              <span class="price tbd">Ask in-store</span>
+              <a class="pill-link" href="about.html#visit">Enquire</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="sample-note">Sample catalogue — swaps in for real product names, prices and photos once uploaded. Prices marked "Ask in-store" are confirmed at checkout. Want live pricing and cart checkout here instead of by enquiry? That's a next step we can wire up.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <span class="brand-word" style="color:var(--white)">BNS Fidgets</span>
+        <p style="margin-top:10px; color:var(--mint-pale)">Print-on-demand 3D-printed fidget toys, hand-finished in Burpengary East, Brisbane.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay in the loop</h4>
+        <p style="color:var(--mint-pale); font-size:0.9rem;">New drops and restocks, straight to your inbox.</p>
+        <form class="newsletter-form" action="#" method="post">
+          <label class="sr-only" for="newsletter-email2" style="position:absolute; width:1px; height:1px; overflow:hidden;">Email address</label>
+          <input id="newsletter-email2" type="email" placeholder="you@email.com" required>
+          <button type="submit">Sign up</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BNS Fidgets</span>
+      <span>Burpengary East, Brisbane, Australia</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
